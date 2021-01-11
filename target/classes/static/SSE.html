@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	var source = new EventSourse('/api/v1/sse');
+	source.onmessage = function(event){
+		console.info(event.data);
+		document.getElementById('result').innerText = event.data
+		
+	};
+
+</script>
+</head>
+<body>
+
+	<h1>Test >>  SSE: --data-- :</h1>
+
+	<div id="result"></div>
+	
+</body>
+</html>

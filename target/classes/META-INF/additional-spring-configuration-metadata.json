@@ -1,0 +1,14 @@
+{
+	"properties": [
+		{
+			"name": "spring.banner,lacation-banner.txt",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.banner,lacation-banner.txt'"
+		},
+		{
+			"name": "spring.banner,lacation",
+			"type": "java.lang.String",
+			"description": "A description for 'spring.banner,lacation'"
+		}
+	]
+}
